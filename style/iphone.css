@@ -68,7 +68,7 @@
 
     flex-direction: column;
 
-    border: 2px solid var(--violet-2);
+    border: 6px solid var(--black-1);
 }
 
 .notch-containter {
@@ -84,7 +84,7 @@
 }
 
 .notch {
-    background: var(--violet-2);
+    background: var(--black-1);
     width: 60%;
     height: 100%;
     border-radius: 0% 0% 15px 15px;
@@ -97,7 +97,7 @@
     position: block;
     width: 40%;
     height: .6rem;
-    background: var(--black-1);
+    background: var(--black-2);
     border-radius: .2rem;
 }
 
