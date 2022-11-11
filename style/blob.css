@@ -1,0 +1,12 @@
+.blob {
+    z-index: 1;
+    position: absolute;
+    transform: scale(2.7);
+}
+
+.blob-glow {
+    z-index: 0;
+    position: absolute;
+    transform: scale(2.7);
+    filter: blur(25px);
+}
