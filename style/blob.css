@@ -1,7 +1,15 @@
 .blob {
     z-index: 1;
     position: absolute;
-    transform: scale(2.7);
+
+    display: flex;
+    justify-content: center;
+
+    /* display: none; */
+    min-width: 45rem;
+    min-height: 40%;
+    /* background-color: red; */
+    /* transform: scale(2.7); */
     margin-right: 2rem;
 }
 
