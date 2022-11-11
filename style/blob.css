@@ -2,6 +2,7 @@
     z-index: 1;
     position: absolute;
     transform: scale(2.7);
+    margin-right: 2rem;
 }
 
 .blob-glow {
@@ -9,4 +10,5 @@
     position: absolute;
     transform: scale(2.7);
     filter: blur(25px);
+    margin-right: 2rem;
 }
