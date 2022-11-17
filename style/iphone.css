@@ -13,14 +13,12 @@
     margin-inline: 50%;
     transform: translate(-50%, 0);
 
-
-
     aspect-ratio: 9 / 19.5;
-    min-width: 70%;
-    min-height: 70%;
+    min-width: 75%;
+    min-height: 75%;
 
 
-    box-shadow: 0px 20px 15px #33333335;
+    box-shadow: 0px 0px 20px var(--card-black-2);
     border: 6px solid var(--black-1);
     border-radius: 2rem;
 
@@ -32,7 +30,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    overflow: hidden;
 }
 
 .notch-containter {

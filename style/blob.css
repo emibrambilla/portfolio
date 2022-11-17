@@ -2,9 +2,11 @@
     position: absolute;
     z-index: 1;
     /* centered */
-    min-width: 90%;
+    min-width: 100%;
     min-height: 60%;
     margin-top: 30%;
+
+    filter: blur(0.2rem);
 
     /* full */
     /* min-width: 90%;
@@ -20,7 +22,7 @@
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 
     animation: move 15s linear infinite;
-    filter: blur(0.3rem);
+
 }
 
 

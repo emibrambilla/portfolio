@@ -23,7 +23,15 @@
 
     border-radius: 2rem;
 
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    background-color: var(--card-black);
+    box-shadow:
+        inset 1px 0px 10px 1px var(--pink),
+        inset 5px 0px 5px 1px var(--violet-1);
+
+    backdrop-filter: blur(10px);
+
+
+    /* 0px 0px 10px violet; */
 
     color: white;
 }
