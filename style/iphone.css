@@ -1,8 +1,11 @@
 .iphone-wrapper {
     position: relative;
     min-width: 20rem;
+    /* height: 100vh; */
     /* margin-right: 2rem; */
     /* background-color: yellow; */
+    overflow: visible;
+
 }
 
 
@@ -16,6 +19,8 @@
     aspect-ratio: 9 / 19.5;
     min-width: 75%;
     min-height: 75%;
+
+
 
 
     box-shadow: 0px 0px 20px var(--card-black-2);
