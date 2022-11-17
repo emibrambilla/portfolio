@@ -11,7 +11,7 @@
     /* background: url(../images/background/fluid-1.jpg); */
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 
     background: linear-gradient(to top right, var(--bg-black), var(--bg-purple))

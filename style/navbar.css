@@ -1,5 +1,5 @@
 .nav-bar {
-    background: linear-gradient(90deg, var(--violet-1) 0%, var(--pink-2) 100%);
+    background: var(--black-1);
     width: 100%;
     margin-bottom: var(--margin-bottom);
     display: flex;
@@ -8,16 +8,27 @@
 
     flex-wrap: wrap;
     justify-content: space-between;
+
+    position: sticky;
+    z-index: 10;
+    top: 0;
+
 }
 
 .nav-right {
     display: flex;
-    background-color: red;
+    color: white;
     justify-content: space-evenly;
+    align-items: center;
 }
 
-.nav-right>h4 {
-    margin-right: 3rem;
+a:link,
+:visited {
+    color: white;
+}
+
+.nav-right div {
+    padding-inline-end: 0.5rem;
 }
 
 

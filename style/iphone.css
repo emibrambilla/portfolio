@@ -30,6 +30,9 @@
 
     background: url(../images/background-iphone-blur.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
 }
 
 .notch-containter {
