@@ -1,13 +1,32 @@
 .who-am-i-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: green;
+    justify-content: center;
+    /* background-color: green; */
 
+    /* background-color: green; */
+    max-width: 100%;
 }
 
-.who-am-i-section-description {
+.who-am-i {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.who-am-i-box {
+    margin: 10%;
     display: flex;
     flex-direction: column;
-    background-color: red;
+    padding: 2rem;
+    justify-content: left;
+
+    border-radius: 2rem;
+
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+
+    color: white;
 }
+
+
+.who-am-i-box h1 {}
