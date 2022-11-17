@@ -1,0 +1,13 @@
+.who-am-i-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: green;
+
+}
+
+.who-am-i-section-description {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}

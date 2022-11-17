@@ -1,0 +1,25 @@
+.nav-bar {
+    background: linear-gradient(90deg, var(--violet-1) 0%, var(--pink-2) 100%);
+    width: 100%;
+    margin-bottom: var(--margin-bottom);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px #000;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    background-color: red;
+    justify-content: space-evenly;
+}
+
+.nav-right>h4 {
+    margin-right: 3rem;
+}
+
+
+
+.website:nth-child(1) {}
