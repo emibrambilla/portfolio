@@ -1,9 +1,8 @@
 .nav-bar {
-    background: var(--black-1);
+    /* background: var(--black-1); */
     width: 100%;
     display: flex;
     flex-direction: row;
-    box-shadow: 0 0 10px #000;
 
     flex-wrap: wrap;
     justify-content: space-between;
@@ -11,6 +10,10 @@
     position: sticky;
     z-index: 10;
     top: 0;
+
+    /* box-shadow: 0 0 10px #000; */
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(15px);
 }
 
 .nav-right {
@@ -20,9 +23,11 @@
     align-items: center;
 }
 
-a:link,
-:visited {
-    color: white;
+.nav-img {
+    /* background-color: red; */
+    width: 1.5rem;
+    padding: 0.4rem;
+    filter: opacity(0.8)
 }
 
 .nav-right div {

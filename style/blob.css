@@ -1,18 +1,17 @@
-.blob {
+.blob,
+.blob-glow {
     position: absolute;
-    z-index: 1;
+
     /* centered */
-    min-width: 100%;
+    /* min-width: 100%;
     min-height: 60%;
-    margin-top: 30%;
+    margin-top: 30%; */
 
-    filter: blur(0.2rem);
 
-    /* full */
-    /* min-width: 90%;
-    min-height: 80%;
 
-    margin-top: 20%; */
+    /* full  */
+    min-width: 100%;
+    min-height: 100%;
 
     background:
         linear-gradient(180deg,
@@ -21,33 +20,33 @@
 
     transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 
-    animation: move 15s linear infinite;
+    animation: move 25s linear infinite;
 
 }
 
+.blob {
+    z-index: 1;
+    filter: blur(0.4rem);
+}
 
 .blob-glow {
-    position: absolute;
     z-index: 0;
-
-    min-width: 90%;
-    min-height: 60%;
-
-    margin-top: 30%;
-
-    background: linear-gradient(180deg, var(--violet-1), var(--pink));
-
-    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-
-    animation: move 15s linear infinite;
-
-    transform: scale(1);
-    filter: blur(3rem);
+    margin-top: -5%;
+    filter: blur(4rem);
 }
 
 @keyframes move {
 
     0%,
+    100% {
+        border-radius: 19% 81% 23% 77% / 18% 79% 21% 82%;
+    }
+
+    50% {
+        border-radius: 75% 25% 82% 18% / 79% 19% 81% 21%;
+    }
+
+    /* 0%,
     100% {
         border-radius: 49% 51% 22% 78% / 30% 73% 27% 70%;
     }
@@ -87,7 +86,7 @@
 
     90% {
         border-radius: 55% 45% 58% 42% / 21% 55% 45% 79%;
-    }
+    } */
 }
 
 

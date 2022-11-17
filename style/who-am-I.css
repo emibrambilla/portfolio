@@ -12,35 +12,48 @@
 }
 
 .who-am-i {
-    display: flex;
-    justify-content: center;
+    position: relative;
+    display: inline-block;
+
     max-width: 100%;
     /* background-color: red; */
 }
 
 .who-am-i-box {
-    margin-inline: 10%;
-    margin-block: 20%;
+    margin: 10%;
+    /* position: absolute; */
+    /* margin: 50%; */
+    /* margin-inline: 10%; */
 
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    justify-content: left;
+    justify-content: flex-start;
 
     border-radius: 2rem;
 
-    background-color: var(--card-bg);
-    box-shadow:
+    background: linear-gradient(to right bottom, var(--card-bg-1), var(--card-bg-2));
+    /* box-shadow:
         inset 1px 0px 10px 1px var(--pink),
-        inset 5px 0px 5px 1px var(--violet-1);
+        inset 5px 0px 5px 1px var(--violet-1); */
+
+    box-shadow: 6px 6px 20px var(--card-bg-shadow);
 
     backdrop-filter: blur(10px);
-
-
-    /* 0px 0px 10px violet; */
 
     color: white;
 }
 
+.who-am-i #name {
+    color: var(--violet-1);
+}
 
-.who-am-i-box h1 {}
+
+
+.donwload-cv {
+    display: inline-block;
+    background-color: var(--violet-1);
+    padding: 1rem;
+    border-radius: 1rem;
+
+}

@@ -14,5 +14,5 @@
     /* overflow: hidden; */
 
 
-    background: linear-gradient(to top right, var(--black-1), var(--black-2))
+    background: linear-gradient(to top right, var(--main-bg-black), var(--main-bg-purple));
 }

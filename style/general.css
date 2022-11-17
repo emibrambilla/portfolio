@@ -12,13 +12,11 @@
 
 
 
-    --bg-black: #27164d;
-    --bg-purple: #553245;
+    --main-bg-black: #27164d;
+    --main-bg-purple: #140c11;
 
-
-    --card-black: #232029;
-    --card-black-2: #221e28;
-    --card-black-3: #1b1820;
-    --card-bg: #312c39;
+    --card-bg-1: #312c39;
+    --card-bg-2: #211e27;
+    --card-bg-shadow: #7f4bf85f;
 
 }
