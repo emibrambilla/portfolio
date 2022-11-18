@@ -19,6 +19,7 @@
     z-index: 1;
     /* filter: blur(0.4rem); */
     filter: opacity(0.1);
+    display: none;
 }
 
 .blob-glow {
