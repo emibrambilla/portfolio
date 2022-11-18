@@ -48,6 +48,13 @@
     color: var(--violet-1);
 }
 
+.who-am-i-links {
+    padding-block: 1rem;
+
+    display: flex;
+    align-items: flex-start;
+}
+
 
 
 .donwload-cv {
@@ -55,5 +62,7 @@
     background-color: var(--violet-1);
     padding: 1rem;
     border-radius: 1rem;
+
+    color: white;
 
 }
