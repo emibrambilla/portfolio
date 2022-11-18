@@ -11,15 +11,15 @@
             var(--violet-1),
             var(--pink));
 
-    animation: move 20s linear infinite;
+    animation: move 18s linear infinite;
 
 }
 
 .blob {
     z-index: 1;
 
-    -webkit-backdrop-filter: blur(0.4rem);
-    filter: blur(0.2rem);
+    -webkit-backdrop-filter: blur(0.2rem);
+    filter: blur(0.1rem);
     box-shadow: 0px 0px 60px var(--pink-2);
     opacity: 1;
 }
