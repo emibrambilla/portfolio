@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     max-width: 100%;
     padding-block: 10vh;
 }
@@ -13,13 +14,16 @@
 }
 
 .who-am-i-box {
-    margin: 10%;
+    margin-block: min(5rem, 90%);
+    margin-left: 15%;
+    padding: 2rem;
 
     display: flex;
     flex-direction: column;
 
-    padding: 2rem;
+
     justify-content: space-evenly;
+    align-items: center;
 
     border-radius: 2rem;
 
@@ -34,7 +38,6 @@
 
 .who-am-i #name {
     /* color: var(--violet-1); */
-    font-size: 2.5rem;
     background: -webkit-linear-gradient(var(--violet-1), var(--pink));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -50,18 +53,18 @@
 .icon-link {
     filter: opacity(0.8);
     width: 2.2rem;
-    padding-right: 1.5rem;
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 
 
 .download-cv {
     display: inline-block;
-    padding: 1rem;
     background: linear-gradient(to bottom right, var(--violet-1), var(--pink-2));
-    border-radius: 1rem;
+    border-radius: 0.8rem;
+    padding-inline: 1rem;
 
-    color: var(--black-2);
     font-weight: bold;
-    font-size: 1.5rem;
 }
+
+.who-am-i #hello {}

@@ -154,30 +154,26 @@
     border-radius: 10px;
     box-shadow: 0px 5px 5px #33333340;
     cursor: pointer;
-    /* transform: scale(.5); */
 }
 
-.app:nth-child(1) {
+
+
+.dock #linkedin {
     background: url(../images/apps/linkedin.jpg);
     background-size: cover;
+
 }
 
-.app:nth-child(2) {
+.dock #mail {
     background: url(../images/apps/mail-os.png);
     background-size: cover;
 }
 
-.app:nth-child(3) {
+.dock #git {
     background: url(../images/apps/github.jpg);
     background-size: cover;
 }
 
-p {
-    font-family: sans-serif;
-    font-size: 0.8em;
-    text-align: center;
-    color: white;
-}
 
 
 @media(hover) {
