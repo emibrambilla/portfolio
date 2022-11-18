@@ -80,12 +80,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* background-color: red; */
 }
 
 .widget_pic {
+    aspect-ratio: 1/1;
     margin-top: 10%;
-    width: 80%;
-    min-height: 10rem;
+    min-width: 90%;
+    /* min-height: 10rem; */
     background: url(../images/linkedin.png);
     background-size: cover;
     border-radius: 15px;
