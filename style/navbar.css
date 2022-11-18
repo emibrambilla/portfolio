@@ -14,6 +14,7 @@
     /* box-shadow: 0 0 10px #000; */
     background-color: var(--navbar-bg);
     backdrop-filter: blur(25px);
+    padding: 0.5rem;
 }
 
 .nav-right {
@@ -23,12 +24,14 @@
     align-items: center;
 }
 
-.nav-img {
-    /* background-color: red; */
-    width: 2rem;
-    padding: 1rem;
-    filter: opacity(0.8)
+.icon-link-nav {
+    padding-right: 2rem;
+    padding-block: 0.5rem;
+    filter: opacity(0.8);
+    width: 1.5rem;
 }
+
+
 
 .nav-right div {
     padding-inline-end: 0.5rem;
