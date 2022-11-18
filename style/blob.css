@@ -18,6 +18,8 @@
 .blob {
     z-index: 1;
     /* filter: blur(0.4rem); */
+    box-shadow: 10px 0px 60px var(--violet-1);
+    opacity: 1;
 }
 
 .blob-glow {
