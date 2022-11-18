@@ -2,13 +2,6 @@
 .blob-glow {
     position: absolute;
 
-    /* centered */
-    /* min-width: 100%;
-    min-height: 60%;
-    margin-top: 30%; */
-
-
-
     /* full  */
     min-width: 100%;
     min-height: 100%;
@@ -18,15 +11,14 @@
             var(--violet-1),
             var(--pink));
 
-    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-
     animation: move 25s linear infinite;
 
 }
 
 .blob {
     z-index: 1;
-    filter: blur(0.4rem);
+    /* filter: blur(0.4rem); */
+    filter: opacity(0.1);
 }
 
 .blob-glow {

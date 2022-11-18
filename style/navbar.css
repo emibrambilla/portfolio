@@ -12,8 +12,8 @@
     top: 0;
 
     /* box-shadow: 0 0 10px #000; */
-    background: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(15px);
+    background-color: var(--navbar-bg);
+    backdrop-filter: blur(25px);
 }
 
 .nav-right {
