@@ -15,7 +15,8 @@
 
 .who-am-i-box {
     margin-block: min(5rem, 90%);
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: min(10%, 90%);
     padding: 2rem;
 
     display: flex;
@@ -33,6 +34,7 @@
     backdrop-filter: blur(10px);
 
     color: white;
+    text-align: center;
 
 }
 
