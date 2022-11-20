@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding-inline: 5%;
+    padding-bottom: 2rem;
 
 }
 
@@ -23,4 +24,42 @@
 .projects-section p {
     color: var(--violet-2);
     margin: 2rem;
+}
+
+.projects-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.project-box {
+    background-color: red;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 2rem;
+
+    background: linear-gradient(to right bottom, var(--card-bg-1), var(--card-bg-2));
+    box-shadow: 6px 6px 20px var(--card-bg-shadow);
+
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    color: white;
+    text-align: center;
+}
+
+@media(min-width: 40em) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(hover) {
+    .project-box:hover {
+        transform: scale(1.1);
+        transition: transform 300ms ease;
+    }
 }
