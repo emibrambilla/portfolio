@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     /* margin-top: max(1rem, 90%); */
-    margin-block: 2rem;
+    margin-block: 1rem;
     margin-inline: 10%;
 }
 
@@ -24,7 +24,7 @@
     flex-direction: column;
 
 
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 
     border-radius: 2rem;
@@ -58,7 +58,7 @@
 .icon-link {
     filter: opacity(0.8);
     width: 2.2rem;
-    padding: 0.5rem;
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 

@@ -1,22 +1,3 @@
-<style>
-  .welcome-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: var(--margin-bottom);
-
-  }
-
-  .welcome-text>h1 {
-    font-size: larger;
-    font-weight: bold;
-    color: aliceblue;
-    font-family: 'Lucida Sans';
-
-  }
-</style>
-
-
 <!DOCTYPE html>
 <html>
 
@@ -37,6 +18,8 @@
   <link rel="stylesheet" type="text/css" href="style/general.css">
   <link rel="stylesheet" type="text/css" href="style/navbar.css">
   <link rel="stylesheet" type="text/css" href="style/who-am-I.css">
+  <link rel="stylesheet" type="text/css" href="style/projects.css">
+  <link rel="stylesheet" type="text/css" href="style/footer.css">
 
 </head>
 
@@ -49,15 +32,13 @@
         <image class="icon-link-nav" src="./images/icons/user.png"></image>
       </a>
 
-
-      <a href="#MY_PROJECS">
-        <image class="icon-link-nav" src="./images/icons/projects.png"></image>
-      </a>
-
       <a href="#ABOUT">
         <image class="icon-link-nav" src="./images/icons/information-button.png"></image>
       </a>
 
+      <a href="#MY_PROJECS">
+        <image class="icon-link-nav" src="./images/icons/projects.png"></image>
+      </a>
     </div>
 
 
@@ -114,12 +95,12 @@
 
       <div class="who-am-i" id="WHO_AM_I">
         <div class="who-am-i-box">
-          <h1 id="hello"> 🙋‍♂️ </h1>
-          <h1> Welcome to my <span id="name">Portfolio</span>!</h1>
+          <h2 id="hello"> 🙋‍♂️ </h2>
+          <h2> Welcome to my <span id="name">Portfolio</span>!</h2>
           <p>
             I’m Emilio Brambilla, an apprendee UX Designer
-            with a Master in Computer Science 🧑‍💻. <br><br>
-            I’m passionate about research processes and cool designs.
+            with a Master in Computer Science 🧑‍💻 <br><br>
+            I’m passionate about research processes and cool designs 😎
           </p>
           <div class="who-am-i-links">
             <a href="https://www.linkedin.com/in/emilio-brambilla/">
@@ -145,25 +126,11 @@
       </div>
     </div>
 
-    <!-- PROJECTS SECTION -->
-    <!-- <div class="projects-section" id="MY_PROJECS">
-      <h2> take a look at my projects </h2>
-      <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-        has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it
-        to make a type specimen book. It has survived not only five centuries, but also the
-        leap into electronic
-        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-        including versions of Lorem Ipsum.
-      </p>
-    </div> -->
-
-
     <div class="about-section" id="ABOUT">
-      <h1> ABOUT ME </h1>
+
       <div class="about-row">
         <div class="about-column">
+          <h1> ABOUT ME </h1>
           <div class="about-info">
             <div>
               <image class="icon-about" src="./images/icons/signature.png"></image>
@@ -182,8 +149,6 @@
 
           </div>
 
-
-
           <p> During my CS bachelor's degree, I felt that my empathy and ability to relate to others were not being
             exploited enough.
             I started to get passionate about the psychology of communication and users’ experiences, and I chose to
@@ -193,17 +158,6 @@
             design skills.
 
             Now I want to challenge myself with new projects.
-
-
-            s simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it
-            to make a type specimen book. It has survived not only five centuries, but also the
-            leap into electronic
-            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-            PageMaker
-            including versions of Lorem Ipsum.
           </p>
         </div>
         <div class="bowl-section">
@@ -217,6 +171,31 @@
       </div>
 
     </div>
+
+    <!-- PROJECTS SECTION -->
+    <div class="projects-section" id="MY_PROJECS">
+      <h1>MY PROJECTS</h1>
+      <p>here i will add some hightlight of the projects i have realized over the years
+      </p>
+    </div>
+
+    <footer>
+      <div class="footer-main-column">
+        <p>Website realized by Emilio Brambilla</p>
+        <div class="footer-row">
+          <p id="footer-left-txt">
+            Thanks you for visiting my portfolio. I hope you liked it!
+            For comments or any advice write me an email at <br>
+            emilio.brambilla96@gmail.com
+          </p>
+          <p id="footer-right-txt">
+            I give consent to process my data with the purpose of the recruitment process, in accordance to the
+            Regulation of the European Parliament 679/2016, regarding the protection of natural persons and free
+            movement of such data
+          </p>
+        </div>
+      </div>
+    </footer>
 
 
 

@@ -2,7 +2,8 @@
     --black-1: #19181f;
     --black-2: #211e27;
     --violet-3: #5c36b4;
-    --pink: #f29fbd;
+    --pink: #d18fc9;
+    /* --pink: #f29fbd; */
     --pink-2: #f29fbdc4;
     --violet-1: #804bf8;
     --violet-2: #736c85;
@@ -19,25 +20,28 @@
     --card-bg-2: #211e27;
     --card-bg-shadow: #7f4bf85f;
 
-    --navbar-bg: #211e2778;
+    /* --navbar-bg: #211e2778; */
+
+    --navbar-bg: #27164d00;
 
 
-    --animation-len: 10s
+    --animation-len: 15s
 }
 
 h1 {
     color: var(--white);
     font-weight: 700;
-    font-size: 1.9rem;
+    font-size: 3rem;
     opacity: 0.8;
     margin: 0;
 }
 
 h2 {
     color: var(--white);
-    font-weight: 500;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 1.9rem;
     opacity: 0.8;
+    margin: 0;
 }
 
 p,
@@ -56,7 +60,7 @@ h3 {
 
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 
     background: linear-gradient(to top right, var(--main-bg-black), var(--main-bg-purple));
