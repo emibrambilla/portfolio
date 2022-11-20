@@ -1,7 +1,7 @@
 :root {
     --black-1: #19181f;
     --black-2: #211e27;
-    --violet: #1e90ff;
+    --violet-3: #5c36b4;
     --pink: #f29fbd;
     --pink-2: #f29fbdc4;
     --violet-1: #804bf8;
@@ -21,6 +21,8 @@
 
     --navbar-bg: #211e2778;
 
+
+    --animation-len: 15s
 }
 
 h1 {
