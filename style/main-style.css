@@ -83,3 +83,9 @@ h3 {
     scrollbar-width: none;
     /* Firefox */
 }
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
