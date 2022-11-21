@@ -77,11 +77,9 @@
 
 .widget {
     min-width: 100%;
-    /* min-height: 10vh; */
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color: red; */
 }
 
 .widget_pic {
@@ -159,18 +157,18 @@
 
 
 .dock #linkedin {
-    background: url(../images/apps/linkedin.jpg);
+    background: url(/../images/apps/linkedin.jpg);
     background-size: cover;
 
 }
 
 .dock #mail {
-    background: url(../images/apps/mail-os.png);
+    background: url(/../images/apps/mail-os.png);
     background-size: cover;
 }
 
 .dock #git {
-    background: url(../images/apps/github.jpg);
+    background: url(/../images/apps/github.jpg);
     background-size: cover;
 }
 
@@ -182,7 +180,7 @@
         transition: transform 300ms ease;
     }
 
-    .profile_pic:hover {
+    /* .profile_pic:hover {
         transform: scale(1.1);
-    }
+    } */
 }
