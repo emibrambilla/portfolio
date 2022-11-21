@@ -24,15 +24,11 @@ footer {
     max-width: 30rem;
 }
 
-/* .footer-main-column #footer-left-txt {
-    /* flex: 1; */
-/* font-size: 0.8rem;
-padding-inline: 0.5rem;
-} */
-
-/* .footer-main-column #footer-right-txt {
-    /* flex: 1; */
-/* font-size: 0.8rem;
-padding-inline: 0.5rem;
-max-width: 30rem;
-} */
+footer #logo {
+    padding-inline: 1rem;
+    padding-top: 1.5rem;
+    filter: opacity(0.8);
+    width: 2rem;
+    height: 2rem;
+    aspect-ratio: 1/1;
+}
