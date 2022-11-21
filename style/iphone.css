@@ -157,18 +157,18 @@
 
 
 .dock #linkedin {
-    background: url(/../images/apps/linkedin.jpg);
+    background: url(../images/apps/linkedin.jpg);
     background-size: cover;
 
 }
 
 .dock #mail {
-    background: url(/../images/apps/mail-os.png);
+    background: url(../images/apps/mail-os.png);
     background-size: cover;
 }
 
 .dock #git {
-    background: url(/../images/apps/github.jpg);
+    background: url(../images/apps/github.jpg);
     background-size: cover;
 }
 
