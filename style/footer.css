@@ -8,15 +8,16 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-inline: 5%;
+    text-align: center;
 }
 
-.footer-row {
+/* .footer-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
     text-align: center;
-}
+} */
 
 .footer-main-column p {
     font-size: 0.8rem;
